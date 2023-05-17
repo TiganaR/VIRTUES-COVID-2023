@@ -1,0 +1,361 @@
+---
+title: "Virtual At Home Monitoring During A COVID-19 Infection"
+author: "Tigana Runte"
+date: "2023-05-16"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+# 1 Introduction
+
+### 1.1 COVID-19
+
+The COVID-19 pandemic, caused by the highly contagious SARS-CoV-2 virus,
+has had widespread global consequences. Emerging in December 2019 in the
+city of Wuhan, Hubei Province of China, COVID-19 was declared a
+worldwide pandemic on March 11, 2020 by the World Health Organization
+(WHO). Testing centers opened across Canada as the genome was sequenced
+and diagnosis became increasingly available to the symptomatic. By the
+end of May, it had infected over 5.9 million individuals worldwide, with
+the infection rate doubling every 30 days (WHO Situation Report, May 31,
+2020). In Canada alone, over 89,000 citizens had tested positive for the
+virus. Hospitals became overwhelmed; warnings by provincial health
+authorities in April, 2020 that intensive care units would not be able
+to meet demand proved true as reports of overwhelmed emergency
+departments, critical care beds and ICUs became part of daily reports by
+health authorities by May.
+
+A December 2022 WHO study comprehensively evaluated pandemic-caused
+deaths, estimating 14.8 million excess deaths worldwide during 2020 and
+2021. In the absence of vaccination and targeted treatments, during 2020
+the most effective strategy for curbing the spread of COVI D-19 included
+quarantine, isolation, and physical distancing measures. At the time,
+COVID-19 was believed to be primarily a respiratory disease with most
+individuals experiencing mild symptoms, while others developed
+complications ranging from asymptomatic hypoxia to pneumonia. The most
+severe cases escalated to acute respiratory distress syndrome requiring
+ventilation. In-clinic or in-hospital treatment was reserved only for
+the most critically ill. Media reports at the time document ill patients
+left, and sometimes dying, at home as ambulances followed directives to
+not transport any but the most seriously ill. More mild cases were
+instructed to isolate at home and self-manage their symptoms.
+
+Gaps in healthcare services were present even before the pandemic and
+continue to disproportionately affect certain populations. Individuals
+residing in rural communities, confined environments, and Indigenous
+populations frequently experience suboptimal access to quality
+healthcare. As the pandemic prompted widespread lockdowns and service
+challenges due to healthcare workers succumbing to illness and hospital
+beds being filled by critically ill patients, access to healthcare, even
+in the largest urban centers, became challenged. A significant concern
+was the lack of comprehensive care plans for COVID-19 positive
+individuals exhibiting mild symptoms. Patients discharged from
+hospitals, after receiving treatment for COVID-19, often lacked proper
+follow-up assessments, highlighting a critical disconnect between
+hospital and community care. Healthcare providers quickly pivoted to
+providing virtual care, but with a lack of knowledge about COVID-19
+treatment and prevention, patients were lost to a system as overwhelmed
+as they were. Addressing these care gaps was an urgent and essential
+task.
+
+### 1.2 VIRTUES
+
+The Cardiac Network of Canada (CANet) is a pan-Canadian research
+network, funded by the Networks of Centre of Excellence of Canada
+Program (NCE), with a vision of a transformed, patient-driven,
+sustainable care model for all Canadians with heart rhythm disorders. In
+2022, CANet broadened its mandate to provide virtual care across a range
+of conditions that impact cardiovascular health.
+
+CANet has developed the Virtual Integrated Reliable Transformative
+User-driven E- health System (VIRTUES), a secured, cloud-based,
+patient-centred virtual care platform that integrates personal health
+records and biosensor data with output and feedback to patients,
+caregivers and providers. VIRTUES was initially designed to provide
+virtual care for patients with cardiac implantable electrical devices,
+atrial fibrillation, post-myocardial infarction, and other heart rhythm
+disorders. VIRTUES was, at the time the pandemic began, being tested
+through random control trials assessing its efficacy. Early results were
+promising. In addition to helping to facilitate diagnosis and treatment
+of cardiac conditions, patient feedback suggested VIRTUES was
+significantly reducing patient anxiety, particularly anxiety stemming
+from uncertainty about disease progression and often silent symptoms
+that could be better captured by the monitoring devices than by patient
+reporting alone. Patients and providers were better able to track
+disease progression and initiate more timely treatment.
+
+In early 2020, as COVID-19 spread throughout the world, CANet
+re-purposed VIRTUES facilitate the management of COVID-19 positive
+patients isolating at home. COVID-19 patients allied with the Network
+had reported high levels of anxiety and uncertainty as they isolated.
+Commonly told to access care if their symptoms became "serious",
+patients reported uncertainty in terms of what "serious" meant. Media
+reported patients going to the ER "too late" as hypoxia symptoms are
+difficult for a layperson to evaluate. It was theorized by CANet that
+the addition of VIRTUES facilitated home monitoring of O\~2 saturation
+levels and monitoring of symptom progression could help address this
+care gap.
+
+# 2 Methods
+
+## 2.1 Study Methods
+
+**Trial design**: This was a prospective, non-randomized cohort trial. A
+randomized control trial (RCT) design, of either patient-level or
+center-level, was carefully and thoughtfully considered. In consultation
+with the CANet Patient Advisory Council, and after soliciting over 30
+citizens' opinion, including 10 Indigenous persons, the consensus was
+that an RCT with patients receiving or not receiving home care was
+considered too drastically different and lacked equipoise.
+
+**Research objectives**: The overall purpose of this research program
+was to assess a virtual strategy to bring quality care to COVID-19
+positive patients isolating at home.
+
+The *primary objective* was to determine patient satisfaction with a
+virtual care model that integrates the VIRTUES interface with daily
+symptom and vital sign reporting, including 02 saturation levels, for
+the management of COVID-19 at home. Patient satisfaction is further
+differentiated based on the demographic variables of gender (between
+men, women, and gender diverse people) and indigenous status (indigenous
+and non-indigenous persons).
+
+The *secondary objective* was to observe patient health over the course
+of a COVID-19 infection to determine:
+
+1.  How patient reported QoL changed over the period
+2.  If patient reported QoL varied significantly by Sex (M/F)
+
+**Study population**: The patient population included COVID-19 positive
+patients who were instructed to self monitor at home.
+
+-   Inclusion criteria:
+
+    -   Confirmed COVID-19 positive
+    -   Aged 18 or above
+    -   Resident in one of 4 included health regions
+
+-   Exclusion criteria:
+
+    -   Unable or unwilling to provide informed consent
+    -   Currently hospitalized for any reason
+
+**Study Sites**: The study included patients from 4 health regions
+across Ontario. These included London (n = 402), Ottawa (n = 213),
+Kitchener (n = 168), and the Niagara health region (n = 24). Site
+specific analysis was conducted on a subset of the data; the Niagara
+health region was removed due to sample size concerns.
+
+**Recruitment**: From the inception of the study through 2021, persons
+who received a positive COVID- 19 test result were contacted via
+telephone by a public health department. All positive patients from
+included health regions were offered enrollment in the VIRTUES study.
+Patients wishing to enroll as well as patients wanting more information
+on VIRTUES gave consent to be contacted by CANet's Project Coordinator
+who facilitated enrollment. Public health offices were not monitored for
+consistency in their recruitment efforts. Niagara region, for example,
+had very low enrollment relative to other centers.
+
+**Procedure**: Participants provided recorded verbal consent as well as
+consent within the VIRTUES platform. Attaining written consent was not
+possible as physical distancing and isolation requirements prohibited
+face-to-face interaction.
+
+Participants were provided a pulse oximeter for their personal use. This
+medical device was delivered to doorsteps in the London health region
+and mailed to participants outside the health district.
+
+Participants were contacted by the research coordinator and provided
+instructions by telephone and in writing on how to download VIRTUES to
+their computers or electronic devices. They then received instructions
+on how to measure their oxygen saturation levels and how to enter the
+data and record their symptoms in the VIRTUES interface. Participants
+recorded their vital signs 3x daily for 21 days, completed a QoL
+questionnaire on days 1,14, 28 and completed a satisfaction
+questionnaire on days 14 and 28. It is important to note that at the
+time the study was designed, the duration of a COVID-19 infection was
+unknown. It is now recognized that mild cases tend to resolve by 10
+days. If patients missed a reporting cycle they were contacted by the
+research coordinator, who is an RN, to ensure wellbeing and prompt
+engagement.
+
+Participants deemed to have experienced symptom progression warranting
+medical intervention (predetermined levels in consultation with public
+health authorities) were referred as needed.
+
+## 2.2 Statistical Methods
+
+Prior to analysis, the data were cleaned and prepared, including the
+identification and treatment of missing data. The data exhibited
+approximately 13% missingness, which could potentially introduce bias
+and affect the validity of the results. To address this concern, data
+was assumed missing at random (MAR) and multiple imputation (Ml) was
+employed.
+
+**2.2.1 Missing Data**
+
+**2.2.2 Comparing distributions**
+
+Likert scales were utilized to measure patient QoL and patient
+satisfaction over the study period. By analyzing the differences between
+distributions of Likert data at different time points one can better
+understand how these patient reported measures changed over the course
+of the COVID-19 infection.
+
+T-tests are commonly utilized to compare two distributions. T-tests are
+a parametric method that makes assumptions about the normality of the
+distributions. We note that this assumption is violated by our data,
+making it incompatible with our analysis.
+
+**EMD:** An alternative is to employ the earth mover's distance (EMD), a
+measurement used to quantify the amount of work required to transform
+one distribution into another. The EMD is calculated by taking the sum
+of the distances between the values of the two distributions, multiplied
+by the amount of probability mass associated with each point. This
+provides a measure of the difference between the two distributions. The
+earth mover's distance has several advantages over other methods for
+analyzing Likert data: less sensitive to outliers; robust to sample
+size; and can capture the variability between two distributions.
+
+**Wilcoxon rank sum:** Analysis of the literature also suggests the use
+of the Wilcoxon rank sum test, which is often described as the paired
+t-tests non-parametric sibling. This measure works by calculating a test
+statistic, based on the difference of each set of paired observations,
+and comparing this with a critical value.
+
+To strengthen the trustworthiness of the results, the EMD values and
+Wilcoxon rank sum values will be compared.
+
+**2.2.3 Modeling**
+
+Modeling was used to better understand the factors influencing patient
+satisfaction with VIRTUES. CANet had undertaken a Canada-wide
+qualitative study during 2018-2020 to assess patient priorities related
+to their arrhythmia diagnosis and treatment. The findings of this study
+revealed that patients experience anxiety and isolation as they engage
+with the healthcare system and that virtual engagement with a care
+provider to track and manage their care would ameliorate these concerns.
+The COVID-19 study, however, is the first attempt to quantify patient
+satisfaction with VIRTUES and to assess whether it was meeting patient
+needs.
+
+Generalized Linear Models (GLMs) are the most commonly employed method.
+The longitudinal structure of the VIRTUES data, however, renders the use
+of GLMs inappropriate. Longitudinal data consists of repeated
+measurements taken on individuals over time, often nested within
+hierarchical levels, such as individuals within families or patients
+within hospitals, which introduces correlations which are not usefully
+meaningful.
+
+Controlling for correlations in the data is essential to produce
+unbiased estimates. Here Mixed-effects Model Repeated Measures (MMRM)
+and Generalized Estimating Equations (GEE) were used to model
+satisfaction by Quality of Life (Qol) and patient demographics while
+accounting for individual and site effects over time.
+
+**MMRM** is a linear mixed-effects model that accounts for the
+within-subject correlation of repeated measurements. It models the fixed
+effects, such as time, and random effects, such as the patient-specific
+intercept and slope. MMRM is particularly useful for analyzing
+longitudinal data as it incorporates the correlation structure among
+observations and allows for flexible modeling of time effects.
+
+**GEE** has roots in quasi-likelihood methods, and extends generalized
+linear models to accommodate correlated longitudinal data. GEE models
+the population average response while accounting for the within-subject
+correlation. It is a robust method that provides consistent parameter
+estimates even when the correlation structure is misspecified.
+
+By comparing MMRM and GEE results, we gain deeper insights into patterns
+and relationships within the data, and reduce the risk of model
+mispessification.
+
+# 3 Results
+
+## 3.1 Q1 Satisfaction
+
+Overall patient reported satisfaction with VIRTUES was very high (87%).
+Patients found it easy to use (91%), and felt that it improved their
+connection with the healthcare system (85%).
+
+Satisfaction was most correlated with connection (r = 0. 7). This
+significant correlation is potentially due to the realities of
+self-isolating during a pandemic. Medical clinics were closed in March
+2020 and, even after lockdowns ended, much of healthcare was delivered
+virtually. People felt disconnected from healthcare (and from pretty
+much everything and everyone). Data was not collected on rural vs urban
+status; it is possible that those in rural areas may have experienced
+the isolation differently. Further, data was not collected regarding
+whether patients had a primary care provider; patients without a
+provider may have experienced greater satisfaction given that their
+baseline state was suboptimal.
+
+As well, the majority of patients (73%) reported that using VIRTUES
+reduced their anxiety, this was particularly true for patients whose
+self reported anxiety was reduced over the period (p = 0.0007).
+
+Satisfaction was consistent across Sex. This is a positive as it shows
+that the reception of VIRTUES was equally positive for both groups.
+
+In our analysis, we aimed to evaluate satisfaction levels across various
+demographic groups, including gender diverse individuals and Indigenous
+peoples, in relation to the virtual care platform provided for COVID-19
+patients during their self-isolation period. Unfortunately, the sample
+sizes for these specific demographic groups were insufficient for
+conducting a robust statistical analysis. For example, only eight
+participants identified as non-cisgender, limiting our ability to draw
+meaningful conclusions about their satisfaction with the virtual care
+platform. Although not statistically significant, it should be noted
+that the average satisfaction level for those that self-identified as
+gender diverse was considerably lower than those who did not.One may
+speculate whether this reflects a more generalized dissatisfaction with
+access to healthcare for the gender diverse, or with a perceived failure
+of VIRTUES to adequately acknowledge and address concerns specific to
+gender diverse patients.
+
+Modeling reveled health region to be statistically significant on
+satisfaction (p=3.6e-07); satisfaction being lowest for Ottawa
+(p=4e-09). Data was stratified by site and the analysis was repeated in
+an attempt to identify regional differences that may have impacted
+satisfaction, but was unsuccessful. An unmeasured confounding variable
+was identified by the research coordinator: delivery time of pulse
+oximeters for the Ottawa region occurred by mail and the delay from
+enrollment to delivery of devices was longer for patients in that health
+region relative to the other health regions in the study. Data was not
+collected to measure this delay, but even a delay of 3-5 days would mean
+that patients with uncomplicated infections would be nearing resolution
+even as their enrollment in the study began. It is postulated that
+satisfaction would be lower in those for whom there was little potential
+benefit. Age was also found to have a small but statistically
+significant effect on satisfaction (p\<0.0001) with a 1 unit increase in
+age associated with a 0.01 increase in satisfaction.
+
+Satisfaction was not significantly different for patients who
+experienced negative health outcomes such as use of at-home oxygen. This
+is likely due to an unmeasured effect modifier such as if it was VIRTUES
+that had flagged the issue prompting this form of medical intervention.
+Patients may be satisfied if VIRTUES helped them track a trajectory
+towards health, particularly in that it reduced the anxiety caused by
+uncertainty about their health status. Patients may, however, also be
+satisfied if VIRTUES identified a health crisis before it necessitated
+hospitalization.
+
+Prompting for more details as to the driver of the satisfaction would
+have been more revealing, but at the time the study was undertaken very
+little was known about the trajectory of the disease and therefore the
+importance of including these variables.
+
+## 3.2 Q2 QoL
+
+All quality of life measures besides `anxiety/depression` and
+`usual_activities` improved over the first 14 days, and all measures
+improved over the 28-day period. Pain was the most improved
+
+# 4 Discussion
+
+# Statistical Appendix
