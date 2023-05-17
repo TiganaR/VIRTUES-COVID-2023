@@ -1,0 +1,37 @@
+---
+title: "Testing"
+author: "Tigana Runte"
+date: "2023-05-17"
+output: html_document
+---
+
+# Testing EMD and Perm Test
+
+```{r}
+anx_emd<-emd(data1$D1_QOL5_Anxiety_Depression, data1$D14_QOL5_Anxiety_Depression)
+anx_emd
+
+pain_emd<-emd(data1$D1_QOL1_Mobility, data1$D14_QOL1_Mobility)
+pain_emd
+```
+
+```{r}
+thing1<-perm_test(n=10000, data1$D1_QOL5_Anxiety_Depression, data1$D14_QOL5_Anxiety_Depression)
+thing2<-sort(thing1)
+sum(thing2 >= anx_emd)
+```
+```{r}
+thing3<-perm_test(n=10000, data1$D1_QOL1_Mobility, data1$D14_QOL1_Mobility)
+thing4<-sort(thing3)
+sum(thing4 >= pain_emd)
+```
+
+```{r}
+p_val_emd(n=10000, data1$D1_QOL5_Anxiety_Depression, data1$D14_QOL5_Anxiety_Depression)
+```
+
+```{r}
+
+p_val_emd(n=10000, data1$D1_QOL1_Mobility, data1$D14_QOL1_Mobility)
+```
+I *think* it all works

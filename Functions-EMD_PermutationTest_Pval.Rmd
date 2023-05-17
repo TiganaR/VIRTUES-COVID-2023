@@ -1,0 +1,64 @@
+---
+title: 'Functions: EMD, Permutation Test, CI'
+author: "Tigana Runte"
+date: "2023-05-17"
+output: html_document
+---
+
+# Earth Movers Distance
+
+Note: traditionally the EMD is a scalar quantity, here the absolute values have been removed so that the direction of movement can be determined.
+
+**Function to calculate EMD for Likert variables** *(1-5)*
+```{r}
+emd <- function(x, y) {
+  n_expect_lvls = 5
+  x = factor(x, levels=1:n_expect_lvls)
+  y = factor(y, levels=1:n_expect_lvls)
+  sum(cumsum(table(y)) / length(y) - cumsum(table(x)) / length(x))
+}
+```
+
+**Function to calculate EMD for `Health_today`** *(0-100)*
+```{r}
+emd_health <- function(x, y) {
+  n_expect_lvls = 101
+  x = factor(x, levels=1:n_expect_lvls)
+  y = factor(y, levels=1:n_expect_lvls)
+  sum(cumsum(table(y)) / length(y) - cumsum(table(x)) / length(x))
+}
+```
+
+
+# Permutation Test
+
+**Create a single simulated data set**
+```{r}
+single_sample <- function(x, y) {
+  h0 <- c(x, y) # pool distributions
+  nx <- sample(h0, size = length(x), replace = TRUE) 
+  ny <- sample(h0, size = length(y), replace = TRUE) 
+  emd(nx, ny)
+}
+```
+
+**Create n simulated data sets**
+```{r}
+perm_test <- function(x, y, n){
+replicate(n, single_sample(x,y))
+}
+
+```
+
+# P value
+```{r}
+
+p_val_emd <- function (x, y, n){
+  t_0 = emd(x,y)
+  n=n
+  samps = perm_test(x,y,n)
+  sum(samps >= t_0)/n
+}
+
+```
+
