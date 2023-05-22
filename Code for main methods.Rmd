@@ -1,0 +1,83 @@
+---
+title: "Analysis"
+author: "Tigana Runte"
+date: "2023-05-18"
+output: html_document
+---
+
+# Loading packages and data
+
+Packages
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(readxl)
+
+```
+
+Data
+
+```{r}
+data1 <- read_excel("data_sets/Imputed_TR_01.xlsx")
+```
+
+# Variable creation
+
+## Demographics
+
+`age` data1$Date.of.Birth <- as.Date(data1$Date.of.Birth, "%m/%d/%Y")
+
+data1$Age = round(as.numeric(difftime(Sys.Date(),data1$Date.of.Birth, units = "weeks"))/52.25,0)
+
+`age_gp` Age group with 3 categories (Y,M,O)
+
+data1 <- data1%>%
+  mutate(age_gp= case_when(
+    (age <  41)~0,#young
+    ((age > 40) & (age < 65))~1,#middle age
+    (age > 64)~2#old
+  )%>% as.factor 
+           )
+
+`Wave` Wave of COVID individual was recruited during (1-5)
+
+```{r}
+data1<- data1%>%
+  mutate(wave=case_when(
+    (D1_Year==2020 & (D1_Month > 1 & D1_Month < 9))~1,
+    ((D1_Year==2020&(D1_Month==9|D1_Month==10|D1_Month==11|D1_Month==12))|
+       (D1_Year==2021 & (D1_Month==1 | D1_Month==2)))~2,
+    (D1_Year == 2021 & (D1_Month > 2 & D1_Month < 9 ))~3,
+    (D1_Year == 2021 & ( D1_Month > 8 & D1_Month < 12 ))~4,
+    ((D1_Year == 2021 & D1_Month ==12) |(D1_Year == 2022))~5
+  )%>% as.factor
+  )
+```
+Dates from [StatCan](https://www150.statcan.gc.ca/n1/pub/11-631-x/11-631-x2022001-eng.htm){.uri}
+
+`vax_start`: Was the individual enrolled before or after vaccines became available 
+```{r}
+
+```
+Date from 
+
+## QoL
+
+### Anxiety/Depression
+
+```{r}
+
+```
+
+## Satisfaction
+
+```{r}
+
+```
+
+## Outcomes
+
+```{r}
+
+```

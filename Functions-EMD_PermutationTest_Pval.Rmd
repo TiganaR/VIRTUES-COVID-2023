@@ -51,6 +51,7 @@ replicate(n, single_sample(x,y))
 ```
 
 # P value
+confirm correct method
 ```{r}
 
 p_val_emd <- function (x, y, n){
